@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#"
+     xml:base="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bssGJLwjUwfKP7pJkxBxK -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7bssGJLwjUwfKP7pJkxBxK">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="zh-cn">描述一个概念是另一概念的前驱知识。</dc:description>
+        <rdfs:label xml:lang="en">precursorOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8PckEZnl2x0U7tEWJD6I4e -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8PckEZnl2x0U7tEWJD6I4e">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="zh-cn">描述一个概念是另一个概念的后继知识。</dc:description>
+        <rdfs:label xml:lang="en">successorOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8aUMzSvLydEnOZwW7tL8HC -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8aUMzSvLydEnOZwW7tL8HC">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="zh-cn">描述一个概念是另一个概念的参照或引用。</dc:description>
+        <rdfs:label xml:lang="en">referenceOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB03LWS92lZR63HRMH4dYZf -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB03LWS92lZR63HRMH4dYZf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">描述一个概念是另一个概念的上位概念（父类）。</dc:description>
+        <rdfs:label xml:lang="en">kindOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBfdvWVwJxbhSw3FcLv3RsJ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBfdvWVwJxbhSw3FcLv3RsJ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="zh-cn">描述一个概念与另一个概念之间的整体与部分关系。</dc:description>
+        <rdfs:label xml:lang="en">wholeOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtEZxom1XNBxKjn46tfRqp -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBtEZxom1XNBxKjn46tfRqp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="zh-cn">描述一个概念是另一个概念的下位概念（子类）。</dc:description>
+        <rdfs:label xml:lang="en">hyponymOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBfaHmK459OThj50w74MmC -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCBfaHmK459OThj50w74MmC">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">描述一个概念是另一个概念的反义词。</dc:description>
+        <rdfs:label xml:lang="en">antonymOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDTiJsYOwBBX6HhAJyjyY1s -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDTiJsYOwBBX6HhAJyjyY1s">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="zh-cn">用于描述一个概念是另一个概念的举例。</dc:description>
+        <rdfs:label xml:lang="en">exampleOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDzl0jX2g7rRfTMTPXNoeIJ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDzl0jX2g7rRfTMTPXNoeIJ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">描述一个概念是另一个概念的同义词。</dc:description>
+        <rdfs:label xml:lang="en">synonymOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZ2U19vNCbT7w1oowFagac -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RZ2U19vNCbT7w1oowFagac">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <dc:description xml:lang="zh-cn">描述一个概念与另一个概念之间的部分与整体关系</dc:description>
+        <rdfs:label xml:lang="en">partOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#A类地址 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#A类地址">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#B类地址 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#B类地址">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#C类地址 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#C类地址">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#D类地址 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#D类地址">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#E类地址 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#E类地址">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#域名和IP地址的关系 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#域名和IP地址的关系">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#点分十进制表示法 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#点分十进制表示法">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#路由器 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#路由器">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
