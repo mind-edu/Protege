@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1555917156889" name="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP" uri="network.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1555917156889" name="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9" uri="relation.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1555932337393" name="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP" uri="network.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1555932337393" name="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9" uri="relation.owl"/>
     </group>
 </catalog>

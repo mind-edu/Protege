@@ -150,6 +150,12 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#AAAAAAAA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#AAAAAAAA"/>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#A类地址 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#A类地址">
