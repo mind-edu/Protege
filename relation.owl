@@ -7,6 +7,91 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#isBrotherOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#isBrotherOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#isFatherof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#isFatherof"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Bob -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Bob">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Father"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Cric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Cric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Father"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Father -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Father">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#isFatherof"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Son"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Son -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Son"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Son1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Son1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Son"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Son2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Son2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus1/ontologies/2019/2/untitled-ontology-9#Son"/>
+    </owl:Class>
 </rdf:RDF>
 
 
