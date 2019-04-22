@@ -180,6 +180,14 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#DNS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#DNS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#D类地址 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#D类地址">
@@ -196,9 +204,81 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Http协议 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Http协议">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#IP协议 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#IP协议">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#IP地址 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#IP地址">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#TCP协议 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#TCP协议">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Web -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Web">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#传输控制协议 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#传输控制协议">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#域名 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#域名">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#域名和IP地址的关系 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#域名和IP地址的关系">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#域名服务器 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#域名服务器">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#子网掩码 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#子网掩码">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
     </owl:Class>
     
@@ -212,9 +292,41 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#端口 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#端口">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#网际协议 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#网际协议">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#路由器 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#路由器">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#201.121.31.4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#201.121.31.4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#B/S系统 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#B/S系统">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
     </owl:Class>
 </rdf:RDF>
