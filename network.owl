@@ -228,6 +228,22 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Internet -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Internet">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#MAC地址 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#MAC地址">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#TCP协议 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#TCP协议">
@@ -244,9 +260,49 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#互联网 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#互联网">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#互联网层 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#互联网层">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#传输层 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#传输层">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#传输控制协议 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#传输控制协议">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#全连接 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#全连接">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#分层结构 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#分层结构">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
     </owl:Class>
     
@@ -284,6 +340,30 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#应用层 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#应用层">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#总线型结构 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#总线型结构">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#拓扑结构 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#拓扑结构">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#点分十进制表示法 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#点分十进制表示法">
@@ -292,9 +372,41 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#物理层 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#物理层">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#环形结构 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#环形结构">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#端口 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#端口">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#网卡 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#网卡">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#网络接口层 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#网络接口层">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
     </owl:Class>
     
@@ -316,6 +428,22 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#连接设备 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#连接设备">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#集线器 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#集线器">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#201.121.31.4 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#201.121.31.4">
@@ -327,6 +455,22 @@
     <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#B/S系统 -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#B/S系统">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#C/S系统 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#C/S系统">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#TCP/IP协议 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#TCP/IP协议">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/project/gWXLCihoOJEpnZ67DHJtP#Bement"/>
     </owl:Class>
 </rdf:RDF>
